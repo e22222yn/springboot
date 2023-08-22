@@ -1,0 +1,1496 @@
+[2023-08-08 10:03:54.419] [INFO ] [main] com.springboot.security.SecurityApplication Starting SecurityApplication using Java 17.0.7 on DESKTOP-MO2LO5I with PID 5952 (C:\springboot\workspace\security\target\classes started by BIG601-07 in C:\springboot\workspace\security)
+[2023-08-08 10:03:54.423] [INFO ] [main] com.springboot.security.SecurityApplication No active profile set, falling back to 1 default profile: "default"
+[2023-08-08 10:03:55.188] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-08-08 10:03:55.236] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+[2023-08-08 10:03:55.725] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8070 (http)
+[2023-08-08 10:03:55.733] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8070"]
+[2023-08-08 10:03:55.734] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-08 10:03:55.735] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.78]
+[2023-08-08 10:03:55.839] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-08 10:03:55.839] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1357 ms
+[2023-08-08 10:03:55.898] [WARN ] [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2023-08-08 10:03:55.901] [INFO ] [main] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2023-08-08 10:03:55.915] [INFO ] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2023-08-08 10:03:55.932] [ERROR] [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2023-08-08 10:05:12.319] [INFO ] [main] com.springboot.security.SecurityApplication Starting SecurityApplication using Java 17.0.7 on DESKTOP-MO2LO5I with PID 1152 (C:\springboot\workspace\security\target\classes started by BIG601-07 in C:\springboot\workspace\security)
+[2023-08-08 10:05:12.322] [INFO ] [main] com.springboot.security.SecurityApplication No active profile set, falling back to 1 default profile: "default"
+[2023-08-08 10:05:12.956] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-08-08 10:05:13.010] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+[2023-08-08 10:05:13.500] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8070 (http)
+[2023-08-08 10:05:13.508] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8070"]
+[2023-08-08 10:05:13.510] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-08 10:05:13.510] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.78]
+[2023-08-08 10:05:13.611] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-08 10:05:13.611] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1251 ms
+[2023-08-08 10:05:13.765] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-08-08 10:05:13.807] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-08-08 10:05:13.952] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-08-08 10:05:14.034] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-08-08 10:05:14.092] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-08-08 10:05:14.117] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[2023-08-08 10:05:14.616] [WARN ] [main] org.mariadb.jdbc.message.server.ErrorPacket Error: 1146-42S02: Table 'springboot.user_roles' doesn't exist
+[2023-08-08 10:05:14.619] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table user_roles 
+       drop 
+       foreign key FK55itppkw3i07do3h7qoclqd4k" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table user_roles 
+       drop 
+       foreign key FK55itppkw3i07do3h7qoclqd4k" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:341)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:235)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=777) Table 'springboot.user_roles' doesn't exist
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:282)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:840)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:779)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:698)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:641)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+[2023-08-08 10:05:14.646] [WARN ] [main] org.mariadb.jdbc.message.server.ErrorPacket Error: 1451-23000: Cannot delete or update a parent row: a foreign key constraint fails
+[2023-08-08 10:05:14.646] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    drop table if exists product" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    drop table if exists product" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:246)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=777) Cannot delete or update a parent row: a foreign key constraint fails
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:290)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:840)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:779)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:698)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:641)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+[2023-08-08 10:05:14.675] [WARN ] [main] org.mariadb.jdbc.message.server.ErrorPacket Error: 1050-42S01: Table 'product' already exists
+[2023-08-08 10:05:14.675] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:458)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:442)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:325)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:169)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:138)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:124)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:168)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=777) Table 'product' already exists
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:282)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:840)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:779)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:698)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:641)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+[2023-08-08 10:05:14.767] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-08-08 10:05:14.776] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 10:05:15.027] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 시작
+[2023-08-08 10:05:15.028] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 완료
+[2023-08-08 10:05:15.195] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-08-08 10:05:15.297] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-08-08 10:05:15.622] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@c6db00d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@732fa176, org.springframework.security.web.context.SecurityContextPersistenceFilter@51d41b97, org.springframework.security.web.header.HeaderWriterFilter@31dbca5d, org.springframework.security.web.csrf.CsrfFilter@69c335c4, org.springframework.security.web.authentication.logout.LogoutFilter@86e8469, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7cb4d4ee, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1e205025, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@413e8246, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4417755b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27260f9c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25031fd4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c7b4a31, org.springframework.security.web.session.SessionManagementFilter@16b713dd, org.springframework.security.web.access.ExceptionTranslationFilter@1a598e30, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a75d9a1]
+[2023-08-08 10:05:15.651] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8070"]
+[2023-08-08 10:05:15.675] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8070 (http) with context path ''
+[2023-08-08 10:05:15.675] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-08-08 10:05:15.693] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-08-08 10:05:15.715] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-08-08 10:05:15.817] [INFO ] [main] com.springboot.security.SecurityApplication Started SecurityApplication in 3.862 seconds (JVM running for 4.461)
+[2023-08-08 11:31:15.308] [INFO ] [RMI TCP Connection(94)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2023-08-08 11:31:15.316] [INFO ] [RMI TCP Connection(94)-127.0.0.1] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8070"]
+[2023-08-08 11:31:15.316] [INFO ] [RMI TCP Connection(94)-127.0.0.1] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2023-08-08 11:31:15.320] [INFO ] [RMI TCP Connection(94)-127.0.0.1] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8070"]
+[2023-08-08 11:31:15.325] [INFO ] [RMI TCP Connection(94)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 11:31:15.327] [INFO ] [RMI TCP Connection(94)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-08-08 11:31:15.330] [INFO ] [RMI TCP Connection(94)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-08-08 12:29:18.631] [INFO ] [main] com.springboot.security.SecurityApplication Starting SecurityApplication using Java 17.0.7 on DESKTOP-MO2LO5I with PID 444 (C:\springboot\workspace\security\target\classes started by BIG601-07 in C:\springboot\workspace\security)
+[2023-08-08 12:29:18.633] [INFO ] [main] com.springboot.security.SecurityApplication No active profile set, falling back to 1 default profile: "default"
+[2023-08-08 12:29:19.261] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-08-08 12:29:19.310] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+[2023-08-08 12:29:19.784] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9090 (http)
+[2023-08-08 12:29:19.791] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9090"]
+[2023-08-08 12:29:19.793] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-08 12:29:19.793] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.78]
+[2023-08-08 12:29:19.906] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-08 12:29:19.906] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1235 ms
+[2023-08-08 12:29:20.062] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-08-08 12:29:20.104] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-08-08 12:29:20.249] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-08-08 12:29:20.331] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-08-08 12:29:20.388] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-08-08 12:29:20.414] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[2023-08-08 12:29:20.935] [WARN ] [main] org.mariadb.jdbc.message.server.ErrorPacket Error: 1451-23000: Cannot delete or update a parent row: a foreign key constraint fails
+[2023-08-08 12:29:20.938] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    drop table if exists product" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    drop table if exists product" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:246)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=807) Cannot delete or update a parent row: a foreign key constraint fails
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:290)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:840)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:779)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:698)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:641)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+[2023-08-08 12:29:20.971] [WARN ] [main] org.mariadb.jdbc.message.server.ErrorPacket Error: 1050-42S01: Table 'product' already exists
+[2023-08-08 12:29:20.972] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:458)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:442)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:325)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:169)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:138)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:124)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:168)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=807) Table 'product' already exists
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:282)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:840)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:779)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:698)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:641)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+[2023-08-08 12:29:21.052] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-08-08 12:29:21.060] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 12:29:21.314] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 시작
+[2023-08-08 12:29:21.315] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 완료
+[2023-08-08 12:29:21.341] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-08-08 12:29:21.613] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-08-08 12:29:21.876] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:29:21.877] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/v2/api-docs']
+[2023-08-08 12:29:21.877] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:29:21.877] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger-resources/**']
+[2023-08-08 12:29:21.877] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger-ui.hyml']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:29:21.877] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger-ui.hyml']
+[2023-08-08 12:29:21.877] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:29:21.877] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/webjars/**']
+[2023-08-08 12:29:21.877] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:29:21.877] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger/**']
+[2023-08-08 12:29:21.877] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/sign-api/exception']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:29:21.878] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/sign-api/exception']
+[2023-08-08 12:29:21.913] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4830c979, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d98ce13, org.springframework.security.web.context.SecurityContextPersistenceFilter@65852d05, org.springframework.security.web.header.HeaderWriterFilter@6f53f5a4, org.springframework.security.web.authentication.logout.LogoutFilter@7e8f97dd, com.springboot.security.config.security.JwtAuthenticationFilter@1e86b2d1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43fdef43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20524816, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65029fc, org.springframework.security.web.session.SessionManagementFilter@74cad577, org.springframework.security.web.access.ExceptionTranslationFilter@5f5076f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f31cf8f]
+[2023-08-08 12:29:21.942] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9090"]
+[2023-08-08 12:29:21.960] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9090 (http) with context path ''
+[2023-08-08 12:29:21.961] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-08-08 12:29:21.978] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-08-08 12:29:22.001] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-08-08 12:29:22.108] [INFO ] [main] com.springboot.security.SecurityApplication Started SecurityApplication in 3.856 seconds (JVM running for 4.654)
+[2023-08-08 12:29:40.935] [INFO ] [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-08 12:29:40.935] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-08 12:29:40.936] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-08-08 12:29:40.949] [INFO ] [http-nio-9090-exec-1] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 12:29:40.949] [INFO ] [http-nio-9090-exec-1] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 12:29:40.949] [INFO ] [http-nio-9090-exec-1] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 12:29:40.966] [INFO ] [http-nio-9090-exec-1] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 12:29:41.031] [INFO ] [http-nio-9090-exec-2] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 12:29:41.032] [INFO ] [http-nio-9090-exec-2] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 12:29:41.032] [INFO ] [http-nio-9090-exec-2] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 12:29:41.033] [INFO ] [http-nio-9090-exec-2] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 12:29:47.704] [INFO ] [http-nio-9090-exec-3] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 12:29:47.704] [INFO ] [http-nio-9090-exec-3] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 12:29:47.704] [INFO ] [http-nio-9090-exec-3] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 12:29:47.705] [INFO ] [http-nio-9090-exec-3] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 12:29:53.742] [INFO ] [http-nio-9090-exec-4] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 12:31:07.364] [INFO ] [http-nio-9090-exec-7] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 12:31:07.365] [INFO ] [http-nio-9090-exec-7] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 12:31:07.365] [INFO ] [http-nio-9090-exec-7] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 12:31:07.367] [INFO ] [http-nio-9090-exec-7] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 12:32:51.480] [INFO ] [http-nio-9090-exec-10] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 12:32:51.480] [INFO ] [http-nio-9090-exec-10] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 12:32:51.480] [INFO ] [http-nio-9090-exec-10] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 12:32:51.482] [INFO ] [http-nio-9090-exec-10] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 12:33:01.379] [INFO ] [RMI TCP Connection(12)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2023-08-08 12:33:01.386] [INFO ] [RMI TCP Connection(12)-127.0.0.1] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-9090"]
+[2023-08-08 12:33:01.387] [INFO ] [RMI TCP Connection(12)-127.0.0.1] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2023-08-08 12:33:01.387] [INFO ] [RMI TCP Connection(12)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2023-08-08 12:33:01.390] [INFO ] [RMI TCP Connection(12)-127.0.0.1] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-9090"]
+[2023-08-08 12:33:01.395] [INFO ] [RMI TCP Connection(12)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 12:33:01.397] [INFO ] [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-08-08 12:33:01.400] [INFO ] [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-08-08 12:38:11.144] [INFO ] [main] com.springboot.security.SecurityApplication Starting SecurityApplication using Java 17.0.7 on DESKTOP-MO2LO5I with PID 2536 (C:\springboot\workspace\security\target\classes started by BIG601-07 in C:\springboot\workspace\security)
+[2023-08-08 12:38:11.149] [INFO ] [main] com.springboot.security.SecurityApplication No active profile set, falling back to 1 default profile: "default"
+[2023-08-08 12:38:12.889] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-08-08 12:38:12.993] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 94 ms. Found 2 JPA repository interfaces.
+[2023-08-08 12:38:13.689] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9090 (http)
+[2023-08-08 12:38:13.698] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9090"]
+[2023-08-08 12:38:13.699] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-08 12:38:13.699] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2023-08-08 12:38:13.825] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-08 12:38:13.826] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2597 ms
+[2023-08-08 12:38:14.003] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-08-08 12:38:14.050] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.8.Final
+[2023-08-08 12:38:14.211] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-08-08 12:38:14.303] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-08-08 12:38:14.360] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-08-08 12:38:14.386] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[2023-08-08 12:38:14.906] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    drop table if exists product" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    drop table if exists product" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:246)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=817) Cannot delete or update a parent row: a foreign key constraint fails
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:70)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:266)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:366)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:504)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Cannot delete or update a parent row: a foreign key constraint fails
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:262)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:360)
+	... 38 common frames omitted
+Caused by: java.sql.SQLException: Cannot delete or update a parent row: a foreign key constraint fails
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1695)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1557)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1520)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:256)
+	... 39 common frames omitted
+[2023-08-08 12:38:14.939] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:458)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:442)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:325)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:169)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:138)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:124)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:168)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=817) Table 'product' already exists
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:266)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:366)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:504)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Table 'product' already exists
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:262)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:360)
+	... 38 common frames omitted
+Caused by: java.sql.SQLException: Table 'product' already exists
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1695)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1557)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1520)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:256)
+	... 39 common frames omitted
+[2023-08-08 12:38:15.015] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-08-08 12:38:15.023] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 12:38:15.288] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 시작
+[2023-08-08 12:38:15.289] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 완료
+[2023-08-08 12:38:15.319] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-08-08 12:38:15.596] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-08-08 12:38:15.951] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:38:15.952] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/v2/api-docs']
+[2023-08-08 12:38:15.953] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:38:15.953] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger-resources/**']
+[2023-08-08 12:38:15.953] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger-ui.hyml']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:38:15.953] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger-ui.hyml']
+[2023-08-08 12:38:15.953] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:38:15.953] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/webjars/**']
+[2023-08-08 12:38:15.953] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:38:15.954] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger/**']
+[2023-08-08 12:38:15.954] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/sign-api/exception']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:38:15.954] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/sign-api/exception']
+[2023-08-08 12:38:15.977] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2eed6331, org.springframework.security.web.context.SecurityContextPersistenceFilter@a4388f1, org.springframework.security.web.header.HeaderWriterFilter@78a0d664, org.springframework.security.web.authentication.logout.LogoutFilter@247d44b4, com.springboot.security.config.security.JwtAuthenticationFilter@1254a3cd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4cbd17b3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a2297d7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@88e85a, org.springframework.security.web.session.SessionManagementFilter@108d59b6, org.springframework.security.web.access.ExceptionTranslationFilter@4509414e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@39dee5fd]
+[2023-08-08 12:38:16.012] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9090"]
+[2023-08-08 12:38:16.032] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9090 (http) with context path ''
+[2023-08-08 12:38:16.033] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-08-08 12:38:16.054] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-08-08 12:38:16.080] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-08-08 12:38:16.187] [INFO ] [main] com.springboot.security.SecurityApplication Started SecurityApplication in 5.939 seconds (JVM running for 6.741)
+[2023-08-08 12:38:21.167] [INFO ] [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-08 12:38:21.167] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-08 12:38:21.169] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-08-08 12:38:21.185] [INFO ] [http-nio-9090-exec-1] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 12:38:21.186] [INFO ] [http-nio-9090-exec-1] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 12:38:21.186] [INFO ] [http-nio-9090-exec-1] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 12:38:21.190] [INFO ] [http-nio-9090-exec-1] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 12:38:36.374] [INFO ] [RMI TCP Connection(6)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2023-08-08 12:38:36.391] [INFO ] [RMI TCP Connection(6)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 12:38:36.393] [INFO ] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-08-08 12:38:36.397] [INFO ] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-08-08 12:38:40.682] [INFO ] [main] com.springboot.security.SecurityApplication Starting SecurityApplication using Java 17.0.7 on DESKTOP-MO2LO5I with PID 11328 (C:\springboot\workspace\security\target\classes started by BIG601-07 in C:\springboot\workspace\security)
+[2023-08-08 12:38:40.684] [INFO ] [main] com.springboot.security.SecurityApplication No active profile set, falling back to 1 default profile: "default"
+[2023-08-08 12:38:41.320] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-08-08 12:38:41.370] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+[2023-08-08 12:38:41.845] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8090 (http)
+[2023-08-08 12:38:41.854] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8090"]
+[2023-08-08 12:38:41.855] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-08 12:38:41.855] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2023-08-08 12:38:41.956] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-08 12:38:41.956] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1235 ms
+[2023-08-08 12:38:42.115] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-08-08 12:38:42.158] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.8.Final
+[2023-08-08 12:38:42.299] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-08-08 12:38:42.381] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-08-08 12:38:42.432] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-08-08 12:38:42.458] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[2023-08-08 12:38:42.970] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    drop table if exists product" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    drop table if exists product" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:246)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=827) Cannot delete or update a parent row: a foreign key constraint fails
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:70)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:266)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:366)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:504)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Cannot delete or update a parent row: a foreign key constraint fails
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:262)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:360)
+	... 38 common frames omitted
+Caused by: java.sql.SQLException: Cannot delete or update a parent row: a foreign key constraint fails
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1695)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1557)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1520)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:256)
+	... 39 common frames omitted
+[2023-08-08 12:38:43.003] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:458)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:442)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:325)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:169)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:138)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:124)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:168)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=827) Table 'product' already exists
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:266)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:366)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:504)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Table 'product' already exists
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:262)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:360)
+	... 38 common frames omitted
+Caused by: java.sql.SQLException: Table 'product' already exists
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1695)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1557)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1520)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:256)
+	... 39 common frames omitted
+[2023-08-08 12:38:43.081] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-08-08 12:38:43.089] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 12:38:43.335] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 시작
+[2023-08-08 12:38:43.336] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 완료
+[2023-08-08 12:38:43.367] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-08-08 12:38:43.640] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-08-08 12:38:43.921] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:38:43.921] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/v2/api-docs']
+[2023-08-08 12:38:43.922] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:38:43.922] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger-resources/**']
+[2023-08-08 12:38:43.922] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger-ui.hyml']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:38:43.922] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger-ui.hyml']
+[2023-08-08 12:38:43.922] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:38:43.922] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/webjars/**']
+[2023-08-08 12:38:43.922] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:38:43.922] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger/**']
+[2023-08-08 12:38:43.923] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/sign-api/exception']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 12:38:43.923] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/sign-api/exception']
+[2023-08-08 12:38:43.943] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24be6e34, org.springframework.security.web.context.SecurityContextPersistenceFilter@60e5b3a8, org.springframework.security.web.header.HeaderWriterFilter@492a220e, org.springframework.security.web.authentication.logout.LogoutFilter@349686e8, com.springboot.security.config.security.JwtAuthenticationFilter@39f3285d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31c31fa6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65dafe50, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b312863, org.springframework.security.web.session.SessionManagementFilter@1237aa73, org.springframework.security.web.access.ExceptionTranslationFilter@701bd6e8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1dba7721]
+[2023-08-08 12:38:43.973] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8090"]
+[2023-08-08 12:38:43.991] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8090 (http) with context path ''
+[2023-08-08 12:38:43.992] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-08-08 12:38:44.010] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-08-08 12:38:44.034] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-08-08 12:38:44.144] [INFO ] [main] com.springboot.security.SecurityApplication Started SecurityApplication in 3.831 seconds (JVM running for 4.434)
+[2023-08-08 12:38:54.869] [INFO ] [http-nio-8090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-08 12:38:54.869] [INFO ] [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-08 12:38:54.871] [INFO ] [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+[2023-08-08 12:38:54.887] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 12:38:54.887] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 12:38:54.888] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 12:38:54.893] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 12:38:54.963] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 12:38:54.963] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 12:38:54.964] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 12:38:54.964] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 13:39:59.140] [INFO ] [http-nio-8090-exec-5] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:39:59.141] [INFO ] [http-nio-8090-exec-5] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 13:39:59.142] [INFO ] [http-nio-8090-exec-5] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:39:59.143] [INFO ] [http-nio-8090-exec-5] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 13:45:06.842] [INFO ] [RMI TCP Connection(75)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2023-08-08 13:45:06.864] [INFO ] [RMI TCP Connection(75)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 13:45:06.866] [INFO ] [RMI TCP Connection(75)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-08-08 13:45:06.869] [INFO ] [RMI TCP Connection(75)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-08-08 13:45:10.213] [INFO ] [main] com.springboot.security.SecurityApplication Starting SecurityApplication using Java 17.0.7 on DESKTOP-MO2LO5I with PID 10844 (C:\springboot\workspace\security\target\classes started by BIG601-07 in C:\springboot\workspace\security)
+[2023-08-08 13:45:10.216] [INFO ] [main] com.springboot.security.SecurityApplication No active profile set, falling back to 1 default profile: "default"
+[2023-08-08 13:45:10.948] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-08-08 13:45:11.001] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+[2023-08-08 13:45:11.475] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8090 (http)
+[2023-08-08 13:45:11.482] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8090"]
+[2023-08-08 13:45:11.483] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-08 13:45:11.483] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.78]
+[2023-08-08 13:45:11.578] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-08 13:45:11.578] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1319 ms
+[2023-08-08 13:45:11.736] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-08-08 13:45:11.777] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-08-08 13:45:11.922] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-08-08 13:45:12.011] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-08-08 13:45:12.069] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-08-08 13:45:12.095] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[2023-08-08 13:45:12.638] [WARN ] [main] org.mariadb.jdbc.message.server.ErrorPacket Error: 1451-23000: Cannot delete or update a parent row: a foreign key constraint fails
+[2023-08-08 13:45:12.642] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    drop table if exists product" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    drop table if exists product" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:246)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=857) Cannot delete or update a parent row: a foreign key constraint fails
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:290)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:840)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:779)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:698)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:641)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+[2023-08-08 13:45:12.675] [WARN ] [main] org.mariadb.jdbc.message.server.ErrorPacket Error: 1050-42S01: Table 'product' already exists
+[2023-08-08 13:45:12.676] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:458)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:442)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:325)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:169)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:138)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:124)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:168)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=857) Table 'product' already exists
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:282)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:840)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:779)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:698)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:641)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+[2023-08-08 13:45:12.752] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-08-08 13:45:12.761] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 13:45:13.041] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 시작
+[2023-08-08 13:45:13.042] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 완료
+[2023-08-08 13:45:13.069] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-08-08 13:45:13.365] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-08-08 13:45:13.659] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:45:13.659] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/v2/api-docs']
+[2023-08-08 13:45:13.660] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:45:13.660] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger-resources/**']
+[2023-08-08 13:45:13.660] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger-ui.html']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:45:13.660] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger-ui.html']
+[2023-08-08 13:45:13.660] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:45:13.660] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/webjars/**']
+[2023-08-08 13:45:13.660] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:45:13.660] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger/**']
+[2023-08-08 13:45:13.660] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/sign-api/exception']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:45:13.660] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/sign-api/exception']
+[2023-08-08 13:45:13.697] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3507200d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4db10b9f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ab29866, org.springframework.security.web.header.HeaderWriterFilter@77902ed6, org.springframework.security.web.authentication.logout.LogoutFilter@15ade272, com.springboot.security.config.security.JwtAuthenticationFilter@7c4de811, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@350ede1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f36c191, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@443b9ebb, org.springframework.security.web.session.SessionManagementFilter@f943847, org.springframework.security.web.access.ExceptionTranslationFilter@798753cc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e97da56]
+[2023-08-08 13:45:13.731] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8090"]
+[2023-08-08 13:45:13.748] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8090 (http) with context path ''
+[2023-08-08 13:45:13.749] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-08-08 13:45:13.768] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-08-08 13:45:13.795] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-08-08 13:45:13.914] [INFO ] [main] com.springboot.security.SecurityApplication Started SecurityApplication in 4.064 seconds (JVM running for 4.687)
+[2023-08-08 13:45:16.109] [INFO ] [http-nio-8090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-08 13:45:16.109] [INFO ] [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-08 13:45:16.111] [INFO ] [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+[2023-08-08 13:45:16.478] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:45:16.478] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 13:45:16.478] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:45:16.489] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 13:45:16.504] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:45:16.504] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 13:45:16.505] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:45:16.506] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 13:45:44.258] [INFO ] [http-nio-8090-exec-3] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:45:44.258] [INFO ] [http-nio-8090-exec-3] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 13:45:44.258] [INFO ] [http-nio-8090-exec-3] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:45:44.270] [INFO ] [http-nio-8090-exec-3] com.springboot.security.controller.SignController [signUp] 회원가입을 수행합니다. id : eeeeee, password : ****, name : 이유나, role : admin
+[2023-08-08 13:45:44.270] [INFO ] [http-nio-8090-exec-3] com.springboot.security.service.impl.SignServiceImpl [getSignResult] 회원 가입 정보 전달
+[2023-08-08 13:45:44.438] [INFO ] [http-nio-8090-exec-3] com.springboot.security.service.impl.SignServiceImpl [getSignUpResult] userEntity 값이 들어왔는지 확인 후 결과값 주입
+[2023-08-08 13:45:44.438] [INFO ] [http-nio-8090-exec-3] com.springboot.security.service.impl.SignServiceImpl [getSignUpResult] 정상 처리 완료
+[2023-08-08 13:45:44.439] [INFO ] [http-nio-8090-exec-3] com.springboot.security.controller.SignController [signUp] 회원가입을 완료했습니다. id : eeeeee
+[2023-08-08 13:46:59.881] [INFO ] [http-nio-8090-exec-9] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:46:59.881] [INFO ] [http-nio-8090-exec-9] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 13:46:59.881] [INFO ] [http-nio-8090-exec-9] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:46:59.884] [INFO ] [http-nio-8090-exec-9] com.springboot.security.controller.SignController [signIn] 로그인을 시도하고 있습니다. id : eeeeee, pw : ****
+[2023-08-08 13:46:59.884] [INFO ] [http-nio-8090-exec-9] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] signDataHandler로 회원정보 요청
+[2023-08-08 13:46:59.988] [INFO ] [http-nio-8090-exec-9] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] Id : eeeeee
+[2023-08-08 13:46:59.988] [INFO ] [http-nio-8090-exec-9] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] 패스워드 비교 수행
+[2023-08-08 13:47:00.075] [INFO ] [http-nio-8090-exec-9] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] 패스워드 일치
+[2023-08-08 13:47:00.076] [INFO ] [http-nio-8090-exec-9] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] signInResultDto 객체 생성
+[2023-08-08 13:47:00.076] [INFO ] [http-nio-8090-exec-9] com.springboot.security.config.security.JwtTokenProvider [createToken] 토큰 생성 시작
+[2023-08-08 13:47:00.105] [INFO ] [http-nio-8090-exec-9] com.springboot.security.config.security.JwtTokenProvider [createToken] 토큰 생성 완료
+[2023-08-08 13:47:00.105] [INFO ] [http-nio-8090-exec-9] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] SignInResultDto 객체에 값 주입
+[2023-08-08 13:47:00.105] [INFO ] [http-nio-8090-exec-9] com.springboot.security.controller.SignController [signIn] 정상적으로 로그인되었습니다. id : eeeeee, token : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlZWVlZWUiLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sImlhdCI6MTY5MTQ3MDAyMCwiZXhwIjoxNjkxNDczNjIwfQ.dvIrjD4CgTXDdcz2Y9fi9RQcNqyTTrxLCJz9rpKO3sw
+[2023-08-08 13:50:43.635] [INFO ] [RMI TCP Connection(13)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2023-08-08 13:50:43.665] [INFO ] [RMI TCP Connection(13)-127.0.0.1] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8090"]
+[2023-08-08 13:50:43.665] [INFO ] [RMI TCP Connection(13)-127.0.0.1] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2023-08-08 13:50:43.666] [INFO ] [RMI TCP Connection(13)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2023-08-08 13:50:43.671] [INFO ] [RMI TCP Connection(13)-127.0.0.1] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8090"]
+[2023-08-08 13:50:43.673] [INFO ] [RMI TCP Connection(13)-127.0.0.1] org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8090"]
+[2023-08-08 13:50:43.676] [INFO ] [RMI TCP Connection(13)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 13:50:43.691] [INFO ] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-08-08 13:50:43.706] [INFO ] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-08-08 13:50:46.841] [INFO ] [main] com.springboot.security.SecurityApplication Starting SecurityApplication using Java 17.0.7 on DESKTOP-MO2LO5I with PID 3552 (C:\springboot\workspace\security\target\classes started by BIG601-07 in C:\springboot\workspace\security)
+[2023-08-08 13:50:46.844] [INFO ] [main] com.springboot.security.SecurityApplication No active profile set, falling back to 1 default profile: "default"
+[2023-08-08 13:50:47.607] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-08-08 13:50:47.660] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+[2023-08-08 13:50:48.156] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8090 (http)
+[2023-08-08 13:50:48.164] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8090"]
+[2023-08-08 13:50:48.165] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-08 13:50:48.166] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.78]
+[2023-08-08 13:50:48.265] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-08 13:50:48.265] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1383 ms
+[2023-08-08 13:50:48.455] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-08-08 13:50:48.499] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-08-08 13:50:48.668] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-08-08 13:50:48.760] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-08-08 13:50:48.821] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-08-08 13:50:48.851] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[2023-08-08 13:50:49.391] [WARN ] [main] org.mariadb.jdbc.message.server.ErrorPacket Error: 1451-23000: Cannot delete or update a parent row: a foreign key constraint fails
+[2023-08-08 13:50:49.395] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    drop table if exists product" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    drop table if exists product" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:246)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=867) Cannot delete or update a parent row: a foreign key constraint fails
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:290)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:840)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:779)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:698)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:641)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+[2023-08-08 13:50:49.423] [WARN ] [main] org.mariadb.jdbc.message.server.ErrorPacket Error: 1050-42S01: Table 'product' already exists
+[2023-08-08 13:50:49.424] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:458)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:442)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:325)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:169)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:138)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:124)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:168)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=867) Table 'product' already exists
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:282)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:840)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:779)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:698)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:641)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+[2023-08-08 13:50:49.503] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-08-08 13:50:49.511] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 13:50:49.766] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 시작
+[2023-08-08 13:50:49.767] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 완료
+[2023-08-08 13:50:49.795] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-08-08 13:50:50.109] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-08-08 13:50:50.380] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:50:50.381] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/v2/api-docs']
+[2023-08-08 13:50:50.381] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:50:50.381] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger-resources/**']
+[2023-08-08 13:50:50.382] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger-ui.html']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:50:50.382] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger-ui.html']
+[2023-08-08 13:50:50.382] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:50:50.382] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/webjars/**']
+[2023-08-08 13:50:50.382] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:50:50.382] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger/**']
+[2023-08-08 13:50:50.382] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/sign-api/exception']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:50:50.382] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/sign-api/exception']
+[2023-08-08 13:50:50.418] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@40304938, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d160161, org.springframework.security.web.context.SecurityContextPersistenceFilter@d426e01, org.springframework.security.web.header.HeaderWriterFilter@1d82d35c, org.springframework.security.web.authentication.logout.LogoutFilter@76d220eb, com.springboot.security.config.security.JwtAuthenticationFilter@6c9e7af2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e8f97dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6347f9cc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48cbb4c5, org.springframework.security.web.session.SessionManagementFilter@1ae26c59, org.springframework.security.web.access.ExceptionTranslationFilter@28dd038f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5101b9]
+[2023-08-08 13:50:50.450] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8090"]
+[2023-08-08 13:50:50.467] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8090 (http) with context path ''
+[2023-08-08 13:50:50.468] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-08-08 13:50:50.485] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-08-08 13:50:50.509] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-08-08 13:50:50.622] [INFO ] [main] com.springboot.security.SecurityApplication Started SecurityApplication in 4.263 seconds (JVM running for 5.037)
+[2023-08-08 13:51:04.894] [INFO ] [http-nio-8090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-08 13:51:04.894] [INFO ] [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-08 13:51:04.896] [INFO ] [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+[2023-08-08 13:51:05.266] [INFO ] [http-nio-8090-exec-6] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:51:05.266] [INFO ] [http-nio-8090-exec-6] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 13:51:05.266] [INFO ] [http-nio-8090-exec-6] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:51:05.279] [INFO ] [http-nio-8090-exec-6] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 13:51:05.286] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:51:05.286] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 13:51:05.286] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:51:05.287] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 13:51:27.093] [INFO ] [http-nio-8090-exec-9] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:51:27.093] [INFO ] [http-nio-8090-exec-9] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 13:51:27.093] [INFO ] [http-nio-8090-exec-9] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:51:27.105] [INFO ] [http-nio-8090-exec-9] com.springboot.security.controller.SignController [signUp] 회원가입을 수행합니다. id : eeeee, password : ****, name : 이유나, role : admin
+[2023-08-08 13:51:27.105] [INFO ] [http-nio-8090-exec-9] com.springboot.security.service.impl.SignServiceImpl [getSignResult] 회원 가입 정보 전달
+[2023-08-08 13:51:27.272] [INFO ] [http-nio-8090-exec-9] com.springboot.security.service.impl.SignServiceImpl [getSignUpResult] userEntity 값이 들어왔는지 확인 후 결과값 주입
+[2023-08-08 13:51:27.272] [INFO ] [http-nio-8090-exec-9] com.springboot.security.service.impl.SignServiceImpl [getSignUpResult] 정상 처리 완료
+[2023-08-08 13:51:27.273] [INFO ] [http-nio-8090-exec-9] com.springboot.security.controller.SignController [signUp] 회원가입을 완료했습니다. id : eeeee
+[2023-08-08 13:51:35.002] [INFO ] [http-nio-8090-exec-10] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:51:35.003] [INFO ] [http-nio-8090-exec-10] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 13:51:35.003] [INFO ] [http-nio-8090-exec-10] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:51:35.005] [INFO ] [http-nio-8090-exec-10] com.springboot.security.controller.SignController [signIn] 로그인을 시도하고 있습니다. id : eeeee, pw : ****
+[2023-08-08 13:51:35.005] [INFO ] [http-nio-8090-exec-10] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] signDataHandler로 회원정보 요청
+[2023-08-08 13:51:35.228] [INFO ] [http-nio-8090-exec-10] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] Id : eeeee
+[2023-08-08 13:51:35.229] [INFO ] [http-nio-8090-exec-10] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] 패스워드 비교 수행
+[2023-08-08 13:51:35.320] [INFO ] [http-nio-8090-exec-10] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] 패스워드 일치
+[2023-08-08 13:51:35.320] [INFO ] [http-nio-8090-exec-10] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] signInResultDto 객체 생성
+[2023-08-08 13:51:35.321] [INFO ] [http-nio-8090-exec-10] com.springboot.security.config.security.JwtTokenProvider [createToken] 토큰 생성 시작
+[2023-08-08 13:51:35.352] [INFO ] [http-nio-8090-exec-10] com.springboot.security.config.security.JwtTokenProvider [createToken] 토큰 생성 완료
+[2023-08-08 13:51:35.352] [INFO ] [http-nio-8090-exec-10] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] SignInResultDto 객체에 값 주입
+[2023-08-08 13:51:35.353] [INFO ] [http-nio-8090-exec-10] com.springboot.security.controller.SignController [signIn] 정상적으로 로그인되었습니다. id : eeeee, token : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlZWVlZSIsInJvbGVzIjpbIlJPTEVfQURNSU4iXSwiaWF0IjoxNjkxNDcwMjk1LCJleHAiOjE2OTE0NzM4OTV9.huD2CB3tDwh5sc3FXvZkcjr6hitYbxy_zEE38Z6Dpro
+[2023-08-08 13:52:00.268] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:52:00.268] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlZWVlZSIsInJvbGVzIjpbIlJPTEVfQURNSU4iXSwiaWF0IjoxNjkxNDcwMjk1LCJleHAiOjE2OTE0NzM4OTV9.huD2CB3tDwh5sc3FXvZkcjr6hitYbxy_zEE38Z6Dpro
+[2023-08-08 13:52:00.268] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:52:00.268] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtTokenProvider [validateToken] 토큰 유효 체크 시작
+[2023-08-08 13:52:00.292] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtTokenProvider [getAuthentication] 토큰 인증 정보 조회 시작
+[2023-08-08 13:52:00.292] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtTokenProvider [getUsername] 토큰 기반 회원 구별 정보 추출
+[2023-08-08 13:52:00.293] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtTokenProvider [getUsername] 토큰 기반 회원 구별 정보 추출 완료, info : eeeee
+[2023-08-08 13:52:00.293] [INFO ] [http-nio-8090-exec-1] com.springboot.security.service.impl.UserDetailsServiceImpl [loadUserByUsername] loadUserByUsername 수행, username : eeeee
+[2023-08-08 13:52:00.308] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtTokenProvider [getAuthentication] 토큰 인증 정보 조회 완료, UserDetails UserName : eeeee
+[2023-08-08 13:52:00.309] [INFO ] [http-nio-8090-exec-1] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 완료
+[2023-08-08 13:52:00.334] [INFO ] [http-nio-8090-exec-1] com.springboot.security.service.impl.ProductServiceImpl [saveProduct] productDTO : ProductDto(name=공책, price=2000, stock=3500)
+[2023-08-08 13:52:00.341] [INFO ] [http-nio-8090-exec-1] com.springboot.security.service.impl.ProductServiceImpl [saveProduct] savedProduct : Product(number=4, price=2000, stock=3500, createdAt=null, updatedAt=null)
+[2023-08-08 13:52:35.674] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:52:35.675] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : 12345
+[2023-08-08 13:52:35.675] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:52:35.675] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.JwtTokenProvider [validateToken] 토큰 유효 체크 시작
+[2023-08-08 13:52:35.675] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.JwtTokenProvider [validateToken] 토큰 유효 체크 예외 발생
+[2023-08-08 13:52:35.676] [INFO ] [http-nio-8090-exec-2] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 13:53:08.025] [INFO ] [http-nio-8090-exec-4] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:53:08.025] [INFO ] [http-nio-8090-exec-4] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 13:53:08.025] [INFO ] [http-nio-8090-exec-4] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:53:08.026] [INFO ] [http-nio-8090-exec-4] com.springboot.security.controller.SignController [signUp] 회원가입을 수행합니다. id : asdf, password : ****, name : 테스트, role : USER
+[2023-08-08 13:53:08.026] [INFO ] [http-nio-8090-exec-4] com.springboot.security.service.impl.SignServiceImpl [getSignResult] 회원 가입 정보 전달
+[2023-08-08 13:53:08.122] [INFO ] [http-nio-8090-exec-4] com.springboot.security.service.impl.SignServiceImpl [getSignUpResult] userEntity 값이 들어왔는지 확인 후 결과값 주입
+[2023-08-08 13:53:08.122] [INFO ] [http-nio-8090-exec-4] com.springboot.security.service.impl.SignServiceImpl [getSignUpResult] 정상 처리 완료
+[2023-08-08 13:53:08.122] [INFO ] [http-nio-8090-exec-4] com.springboot.security.controller.SignController [signUp] 회원가입을 완료했습니다. id : asdf
+[2023-08-08 13:53:22.522] [INFO ] [http-nio-8090-exec-5] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:53:22.522] [INFO ] [http-nio-8090-exec-5] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 13:53:22.522] [INFO ] [http-nio-8090-exec-5] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:53:22.523] [INFO ] [http-nio-8090-exec-5] com.springboot.security.controller.SignController [signIn] 로그인을 시도하고 있습니다. id : asdf, pw : ****
+[2023-08-08 13:53:22.523] [INFO ] [http-nio-8090-exec-5] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] signDataHandler로 회원정보 요청
+[2023-08-08 13:53:22.525] [INFO ] [http-nio-8090-exec-5] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] Id : asdf
+[2023-08-08 13:53:22.525] [INFO ] [http-nio-8090-exec-5] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] 패스워드 비교 수행
+[2023-08-08 13:53:22.621] [INFO ] [http-nio-8090-exec-5] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] 패스워드 일치
+[2023-08-08 13:53:22.621] [INFO ] [http-nio-8090-exec-5] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] signInResultDto 객체 생성
+[2023-08-08 13:53:22.621] [INFO ] [http-nio-8090-exec-5] com.springboot.security.config.security.JwtTokenProvider [createToken] 토큰 생성 시작
+[2023-08-08 13:53:22.621] [INFO ] [http-nio-8090-exec-5] com.springboot.security.config.security.JwtTokenProvider [createToken] 토큰 생성 완료
+[2023-08-08 13:53:22.621] [INFO ] [http-nio-8090-exec-5] com.springboot.security.service.impl.SignServiceImpl [getSignInResult] SignInResultDto 객체에 값 주입
+[2023-08-08 13:53:22.621] [INFO ] [http-nio-8090-exec-5] com.springboot.security.controller.SignController [signIn] 정상적으로 로그인되었습니다. id : asdf, token : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2RmIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTY5MTQ3MDQwMiwiZXhwIjoxNjkxNDc0MDAyfQ.iBpY057C_a5QrWNGwDAt7Og1oKwS3z_Btnh4azgeLvw
+[2023-08-08 13:55:33.619] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:55:33.619] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2RmIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTY5MTQ3MDQwMiwiZXhwIjoxNjkxNDc0MDAyfQ.iBpY057C_a5QrWNGwDAt7Og1oKwS3z_Btnh4azgeLvw
+[2023-08-08 13:55:33.619] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:55:33.619] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.JwtTokenProvider [validateToken] 토큰 유효 체크 시작
+[2023-08-08 13:55:33.621] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.JwtTokenProvider [getAuthentication] 토큰 인증 정보 조회 시작
+[2023-08-08 13:55:33.621] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.JwtTokenProvider [getUsername] 토큰 기반 회원 구별 정보 추출
+[2023-08-08 13:55:33.622] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.JwtTokenProvider [getUsername] 토큰 기반 회원 구별 정보 추출 완료, info : asdf
+[2023-08-08 13:55:33.622] [INFO ] [http-nio-8090-exec-8] com.springboot.security.service.impl.UserDetailsServiceImpl [loadUserByUsername] loadUserByUsername 수행, username : asdf
+[2023-08-08 13:55:33.625] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.JwtTokenProvider [getAuthentication] 토큰 인증 정보 조회 완료, UserDetails UserName : asdf
+[2023-08-08 13:55:33.626] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 완료
+[2023-08-08 13:55:33.626] [INFO ] [http-nio-8090-exec-8] com.springboot.security.config.security.CustomAccessDeniedHandler [handel] 접근이 막혔을 경우 경로 리다이렉트
+[2023-08-08 13:55:33.634] [ERROR] [http-nio-8090-exec-7] com.springboot.security.controller.SignController ExceptionHandler 호출, null, 접근이 금지되었습니다.
+[2023-08-08 13:59:35.746] [INFO ] [RMI TCP Connection(16)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2023-08-08 13:59:35.753] [INFO ] [RMI TCP Connection(16)-127.0.0.1] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8090"]
+[2023-08-08 13:59:35.753] [INFO ] [RMI TCP Connection(16)-127.0.0.1] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2023-08-08 13:59:35.754] [INFO ] [RMI TCP Connection(16)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2023-08-08 13:59:35.758] [INFO ] [RMI TCP Connection(16)-127.0.0.1] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8090"]
+[2023-08-08 13:59:35.764] [INFO ] [RMI TCP Connection(16)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 13:59:35.766] [INFO ] [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-08-08 13:59:35.769] [INFO ] [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-08-08 13:59:38.257] [INFO ] [main] com.springboot.security.SecurityApplication Starting SecurityApplication using Java 17.0.7 on DESKTOP-MO2LO5I with PID 7672 (C:\springboot\workspace\security\target\classes started by BIG601-07 in C:\springboot\workspace\security)
+[2023-08-08 13:59:38.260] [INFO ] [main] com.springboot.security.SecurityApplication No active profile set, falling back to 1 default profile: "default"
+[2023-08-08 13:59:38.984] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-08-08 13:59:39.035] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+[2023-08-08 13:59:39.534] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8090 (http)
+[2023-08-08 13:59:39.543] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8090"]
+[2023-08-08 13:59:39.545] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-08 13:59:39.545] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.78]
+[2023-08-08 13:59:39.652] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-08 13:59:39.652] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1355 ms
+[2023-08-08 13:59:39.816] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-08-08 13:59:39.863] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-08-08 13:59:40.026] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-08-08 13:59:40.114] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-08-08 13:59:40.175] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-08-08 13:59:40.201] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[2023-08-08 13:59:40.747] [WARN ] [main] org.mariadb.jdbc.message.server.ErrorPacket Error: 1451-23000: Cannot delete or update a parent row: a foreign key constraint fails
+[2023-08-08 13:59:40.749] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    drop table if exists product" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    drop table if exists product" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:246)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=877) Cannot delete or update a parent row: a foreign key constraint fails
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:290)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:840)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:779)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:698)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:641)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+[2023-08-08 13:59:40.780] [WARN ] [main] org.mariadb.jdbc.message.server.ErrorPacket Error: 1050-42S01: Table 'product' already exists
+[2023-08-08 13:59:40.780] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    create table product (
+       number bigint not null auto_increment,
+        created_at datetime(6),
+        name varchar(255) not null,
+        price integer not null,
+        stock integer not null,
+        updated_at datetime(6),
+        primary key (number)
+    ) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:458)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:442)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:325)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:169)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:138)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:124)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:168)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.springboot.security.SecurityApplication.main(SecurityApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=877) Table 'product' already exists
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:282)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:840)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:779)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:698)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:641)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+[2023-08-08 13:59:40.857] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-08-08 13:59:40.866] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 13:59:41.138] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 시작
+[2023-08-08 13:59:41.139] [INFO ] [main] com.springboot.security.config.security.JwtTokenProvider [init] JwtTokenProvider 내 secretKey 초기화 완료
+[2023-08-08 13:59:41.167] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-08-08 13:59:41.459] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-08-08 13:59:41.534] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:59:41.535] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/v2/api-docs']
+[2023-08-08 13:59:41.535] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:59:41.535] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger-resources/**']
+[2023-08-08 13:59:41.535] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger-ui.html']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:59:41.535] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger-ui.html']
+[2023-08-08 13:59:41.535] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:59:41.535] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/webjars/**']
+[2023-08-08 13:59:41.535] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/swagger/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:59:41.536] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/swagger/**']
+[2023-08-08 13:59:41.536] [WARN ] [main] org.springframework.security.config.annotation.web.builders.WebSecurity You are asking Spring Security to ignore Ant [pattern='/sign-api/exception']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-08-08 13:59:41.536] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will not secure Ant [pattern='/sign-api/exception']
+[2023-08-08 13:59:41.575] [INFO ] [main] org.springframework.security.web.DefaultSecurityFilterChain Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1a3272e0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7bc3c59f, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f4b8027, org.springframework.security.web.header.HeaderWriterFilter@5cfa9e8a, org.springframework.security.web.authentication.logout.LogoutFilter@58267ba1, com.springboot.security.config.security.JwtAuthenticationFilter@6db2a260, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@769b1d1c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16a14076, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1454339d, org.springframework.security.web.session.SessionManagementFilter@4cd079fe, org.springframework.security.web.access.ExceptionTranslationFilter@6d6ddeb5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44bd7f24]
+[2023-08-08 13:59:41.814] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8090"]
+[2023-08-08 13:59:41.832] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8090 (http) with context path ''
+[2023-08-08 13:59:41.833] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-08-08 13:59:41.850] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-08-08 13:59:41.873] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-08-08 13:59:41.992] [INFO ] [main] com.springboot.security.SecurityApplication Started SecurityApplication in 4.118 seconds (JVM running for 4.821)
+[2023-08-08 13:59:54.799] [INFO ] [http-nio-8090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-08 13:59:54.800] [INFO ] [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-08 13:59:54.801] [INFO ] [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-08-08 13:59:55.115] [INFO ] [http-nio-8090-exec-6] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:59:55.115] [INFO ] [http-nio-8090-exec-6] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 13:59:55.116] [INFO ] [http-nio-8090-exec-6] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:59:55.126] [INFO ] [http-nio-8090-exec-6] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 13:59:55.134] [INFO ] [http-nio-8090-exec-7] com.springboot.security.config.security.JwtTokenProvider [resolveToken] HTTP 헤더에서 Token 값 추출
+[2023-08-08 13:59:55.134] [INFO ] [http-nio-8090-exec-7] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 추출 완료. token : null
+[2023-08-08 13:59:55.134] [INFO ] [http-nio-8090-exec-7] com.springboot.security.config.security.JwtAuthenticationFilter [doFilterInternal] token 값 유효성 체크 시작
+[2023-08-08 13:59:55.134] [INFO ] [http-nio-8090-exec-7] com.springboot.security.config.security.CustomAuthenticationEntryPoint [commence] 인증 실패로 response.sendError 발생
+[2023-08-08 14:00:38.676] [INFO ] [RMI TCP Connection(7)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2023-08-08 14:00:38.682] [INFO ] [RMI TCP Connection(7)-127.0.0.1] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8090"]
+[2023-08-08 14:00:38.683] [INFO ] [RMI TCP Connection(7)-127.0.0.1] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2023-08-08 14:00:38.684] [INFO ] [RMI TCP Connection(7)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2023-08-08 14:00:38.686] [INFO ] [RMI TCP Connection(7)-127.0.0.1] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8090"]
+[2023-08-08 14:00:38.688] [INFO ] [RMI TCP Connection(7)-127.0.0.1] org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8090"]
+[2023-08-08 14:00:38.692] [INFO ] [RMI TCP Connection(7)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-08-08 14:00:38.693] [INFO ] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-08-08 14:00:38.697] [INFO ] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
